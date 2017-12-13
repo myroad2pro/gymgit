@@ -60,3 +60,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Spree Internationalization
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
